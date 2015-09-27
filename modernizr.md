@@ -7,7 +7,7 @@ Modernizr detects features in the browser and creates a JavaScript object. It th
 ```
 
 _CSS simple example:_
-```
+```javascript
 .no-js .glossy,
 .no-cssgradients .glossy {
     background: url("images/glossybutton.png");
@@ -20,7 +20,7 @@ _CSS simple example:_
 
 [Modernizr.load()](http://modernizr.com/docs/#load) is a resource loader (CSS and JavaScript). 
 
-```
+```javascript
 Modernizr.load({
   test: Modernizr.geolocation,
   yep : 'geo.js',
@@ -30,7 +30,7 @@ Modernizr.load({
 
 [Modernizr.mq()](http://modernizr.com/docs/#mq) tests a given media query.
 
-```
+```javascript
 Modernizr.mq('only screen and (max-width: 768px)') // true
 ```
 

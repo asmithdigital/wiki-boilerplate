@@ -3,7 +3,7 @@
 [CSS Format](CSS-Format)
 
 **KSS within SCSS format:**
-```
+```CSS
 // Standard Table
 //
 // Weight: -1

@@ -6,7 +6,7 @@
 
 # CSS Properties Grouped by type:
 
-```
+```CSS
 .selector {
 
   /* @extend / @mixin - no content */
